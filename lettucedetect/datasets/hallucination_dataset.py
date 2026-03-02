@@ -13,7 +13,7 @@ class HallucinationSample:
     labels: list[dict]
     split: Literal["train", "dev", "test"]
     task_type: str
-    dataset: Literal["ragtruth", "ragbench"]
+    dataset: Literal["ragtruth", "ragbench", "halueval"]
     language: Literal["en", "de"]
 
     def to_json(self) -> dict:
